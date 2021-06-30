@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-29T12:26:33Z" name="Suite" finished-at="2021-05-29T12:26:34Z" duration-ms="666">
+    <groups>
+    </groups>
+    <test started-at="2021-05-29T12:26:33Z" name="Test" finished-at="2021-05-29T12:26:34Z" duration-ms="666">
+      <class name="Tests.LoginTest">
+        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:Tests.LoginTest@5ca17ab0]" started-at="2021-05-29T12:26:33Z" name="login" finished-at="2021-05-29T12:26:34Z" duration-ms="605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- Tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
